@@ -1,4 +1,4 @@
-# SMB Website System
+# SMB-skills
 
 [![Vite](https://img.shields.io/badge/Vite-React-blue)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-blue)](#)
@@ -10,55 +10,17 @@
 
 Build professional local business websites with AI while minimizing token usage, reducing unnecessary AI reasoning, and avoiding SaaS-style design patterns.
 
----
+## Getting Started
+
+Open setup.md and follow the instructions there. That's the only file you need to begin. Everything else follows from it.
 
 ## Tech Stack
 
-### Core
-
-* Vite
-* React
-* TypeScript
-* Tailwind CSS
-* React Router
-
-### Icon Libraries
-
-* Lucide React (Default)
-* Heroicons
-* React Icons
-* Phosphor Icons
-
-### Animation Libraries
-
-* Motion for React (Default)
-* GSAP
-* Three.js
-* None
-
----
+The core stack is **Vite, React, TypeScript, Tailwind CSS, and React Router**. For icons, the default is **Lucide React, with Heroicons, React Icons, and Phosphor Icons** available as alternatives. For animation, the default is **Motion for React, with GSAP and Three.js** available depending on project needs.
 
 ## Workflow
 
-Follow the workflow in order.
-
-```text
-setup.md
-↓
-smb-skills/smb-design.md
-↓
-smb-skills/addons/*
-↓
-todo.md
-↓
-smb-skills/integrations/*
-↓
-smb-skills/branding.md
-↓
-smb-skills/finalize.md
-```
-
----
+The system is designed to be followed in order. You start with setup.md to scaffold the project, then move to smb-skills/smb-design.md to define the layout and design system. From there you apply any relevant addons, check todo.md for outstanding items, implement required integrations, apply branding via smb-skills/branding.md, and finish with smb-skills/finalize.md for launch readiness.
 
 ## Folder Structure
 
@@ -75,147 +37,44 @@ smb-skills/
 └── integrations/
 ```
 
----
-
 ## What This System Solves
 
-AI website builders often default to SaaS and software-product layouts.
-
-Local business websites have different goals.
-
-Visitors usually want to:
-
-* Contact a business
-* Request a quote
-* Schedule service
-* Verify trust
-* Confirm service availability
-
-This system helps AI produce websites designed for local businesses instead of software startups.
-
----
+AI website builders tend to default to SaaS and software-product layouts. Local business websites have different goals. Visitors are usually trying to contact a business, request a quote, schedule a service, verify trust, or confirm availability — not evaluate a product. This system gives AI the context it needs to produce layouts designed for that intent instead of defaulting to startup-style pages.
 
 ## Core Files
 
 ### setup.md
 
-Creates the project foundation.
-
-Includes:
-
-* Vite React TypeScript
-* Tailwind CSS
-* React Router
-* Icon library setup
-* Animation library setup
-* Environment configuration
-* .htaccess configuration
+Creates the project foundation — Vite React TypeScript, Tailwind, React Router, icon and animation library setup, environment configuration, and .htaccess.
 
 ### smb-design.md
 
-Defines the website structure and design system.
-
-Includes:
-
-* Homepage layout
-* Services page layout
-* About page layout
-* Contact page layout
-* Navigation
-* Reviews
-* Service areas
-* Forms
-* Typography
-* Images
-* Colors
+Defines the full website structure including homepage, services, about, contact, navigation, reviews, service areas, forms, typography, images, and colors.
 
 ### branding.md
 
-Applies business branding.
-
-Includes:
-
-* Logo
-* Colors
-* Images
-* Favicon
-* Social sharing image
+Handles logo, colors, images, favicon, and social sharing image.
 
 ### finalize.md
 
-Launch readiness checklist.
+The launch checklist covering SEO metadata, Open Graph tags, sitemap, robots.txt, canonical URLs, accessibility, mobile responsiveness, and performance.
 
-Includes:
+## Addons and Integrations
 
-* SEO metadata
-* Open Graph tags
-* sitemap.xml
-* robots.txt
-* canonical URLs
-* accessibility review
-* mobile responsiveness review
-* performance review
+Addons provide optional functionality on top of the base site. Current addons include conversion-homepage.md, review-management.md, and pop-up-promo.md.
 
----
+When an addon requires an external service, the corresponding integration file handles the setup — for example connect-openrouter.md, connect-resend.md, or connect-google-maps.md.
 
-## Addons
-
-Addons provide optional website functionality.
-
-Current addons include:
-
-* conversion-homepage.md
-* review-management.md
-* pop-up-promo.md
-
-Addons may define required integrations.
-
-Missing integrations are automatically appended to todo.md.
-
----
-
-## Integrations
-
-Integrations provide external services required by addons.
-
-Examples:
-
-* connect-openrouter.md
-* connect-resend.md
-* connect-google-maps.md
-
-Integrations are only implemented when required.
-
----
+Integrations are only implemented when a required addon calls for them.
 
 ## Todo System
 
-todo.md is the source of truth for unfinished work.
-
-Whenever a requirement, dependency, integration, asset, credential, or feature is missing:
-
-Append it to todo.md.
-
-Do not create duplicate tasks.
-
----
+todo.md is the source of truth for anything unfinished. Whenever a requirement, dependency, integration, asset, credential, or feature is missing during the workflow, it gets appended there. No duplicate tasks.
 
 ## Design Principles
 
-* Mobile-first
-* Local-business focused
-* Trust-driven
-* Easy to contact
-* Easy to navigate
-* Professional before impressive
-* Clear before clever
+The system is mobile-first and built around trust over impressiveness, clarity over cleverness, and making it easy for visitors to contact or book the business. SaaS design patterns are avoided unless the business itself is a software product.
 
-Avoid SaaS design patterns unless the business itself is a software product.
+## Support
 
----
-
-## Star the Repository
-
-If this project helps you, please consider giving the repository a star.
-
-It helps more people discover the project and supports future development.
+If this project helps you, consider starring the repository. It helps more people find it and supports continued development.
