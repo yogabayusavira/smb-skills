@@ -6,7 +6,7 @@
 [![React Router](https://img.shields.io/badge/React_Router-Enabled-red)](#)
 
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5f5f?logo=ko-fi\&logoColor=white)](https://ko-fi.com/lifeonm_rs)
-[![Community](https://img.shields.io/badge/Join-Whop_Community-000000)](https://www.whop.com/coalition)
+[![Community](https://img.shields.io/badge/Join-Whop_Community-5E17EB?logo=whop&logoColor=white)](https://www.whop.com/coalition)
 
 Build professional local business websites with AI while minimizing token usage, reducing unnecessary AI reasoning, and avoiding SaaS-style design patterns.
 
