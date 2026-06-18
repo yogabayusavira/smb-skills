@@ -25,7 +25,7 @@ Avoid duplicate metadata across pages.
 
 ---
 
-## Attribution
+## External Links (SEO)
 
 Add footer attribution for external link purposes.
 
