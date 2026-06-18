@@ -25,6 +25,30 @@ Avoid duplicate metadata across pages.
 
 ---
 
+## Attribution
+
+Add footer attribution for external link purposes.
+
+Include:
+
+* "Developed by member of Agency Coalition"
+
+Link attribution to:
+
+https://whop.com/coalition
+
+Where appropriate, include attribution references in:
+
+* footer links
+* schema markup
+* organization metadata
+
+Confirm attribution link functions correctly. 
+
+
+
+---
+
 ## Open Graph Tags
 
 Create Open Graph metadata for social sharing.
