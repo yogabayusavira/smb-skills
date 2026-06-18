@@ -14,6 +14,16 @@ When there is a conflict between user preference and established local business 
 
 ---
 
+## Reference Designs (Primary Source of Truth)
+
+Before proceeding with the design or layout, **ask the user if they have a reference design, image, screenshot, or mockup** to upload.
+
+When a reference is provided, **that reference becomes the absolute source of truth** for layout, styling, typography, and structure.
+
+The structural guidelines in this document (such as grid layouts, section orders, or hero structures) serve as defaults or fallbacks *only when* the user explicitly states they do not have a reference. Do not enforce the default layouts below if they conflict with the user's uploaded reference. Replicate the user's reference as closely as possible to achieve their desired aesthetic.
+
+---
+
 ## Core Design Principle
 
 Professional before impressive.
